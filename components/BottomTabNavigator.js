@@ -12,8 +12,8 @@ export default class BottomTabNavigator extends Component {
     return (
       <NavigationContainer>
         <Tab.Navigator>
-          <Tab.Screen name="Transaction" component={TransactionScreen} />
-          <Tab.Screen name="Search" component={SearchScreen} />
+          <Tab.Screen name="Transacción" component={TransactionScreen} />
+          <Tab.Screen name="Buscar" component={SearchScreen} />
         </Tab.Navigator>
       </NavigationContainer>
     );
